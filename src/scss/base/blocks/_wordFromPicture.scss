@@ -1,0 +1,85 @@
+.wfp-board {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.game-container {
+}
+.wpf__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 35px 0px;
+
+    width: 230px;
+    height: 230px;
+}
+.wpf__choice {
+    margin-bottom: 44px;
+    display: grid;
+
+    grid-template-columns: 2fr 2fr;
+    gap: 15px;
+}
+.choice {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #e5e5e5;
+    border-radius: 12px;
+    width: 150px;
+    height: 120px;
+    box-shadow: 0 2px 0 0 #e5e5e5;
+    background-color: $light-theme-back-color !important;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 83%;
+
+    color: #4b4b4b;
+}
+
+.btn-right {
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-color: $main-green-color;
+}
+
+.next-btn {
+    position: absolute;
+
+    left: 0;
+    top: 450px;
+
+    z-index: 1000;
+}
+
+.btn__wrapper {
+    position: relative;
+    display: block;
+    top: 50px;
+    width: 100%;
+    height: 150px;
+    border-radius: 16px;
+    //background-color: $main-green-color;
+    background-color: #d7ffb8;
+}
+
+.wrapper__text {
+    padding-left: 20px;
+    padding-top: 20px;
+    color: $sub-green-color;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 119%;
+}
+
+.special-btn {
+    top: calc(100% - 101px);
+
+    &:focus {
+        top: calc(100% - 95px);
+    }
+}

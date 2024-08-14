@@ -1,0 +1,18 @@
+//base
+@import "./base/reset.scss";
+@import "./base/vars";
+@import "./base/mixins";
+@import "./base/base";
+
+//blocks
+@import "./base/blocks/mainHeader";
+@import "./base/blocks/mainNavigation";
+@import "./base/blocks/mainMenu";
+@import "./base/blocks/vocabulary";
+
+@import "./base/blocks/completedLesson";
+@import "./base/blocks/mainbtn";
+@import "./base/blocks/cards";
+@import "./base/blocks/paregameHeader";
+@import "./base/blocks/cardsGame";
+@import "./base/blocks/wordFromPicture";

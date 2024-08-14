@@ -1,0 +1,49 @@
+.main-header {
+    position: relative;
+    height: 68px;
+    padding: 20px 75px;
+    margin-bottom: 70px;
+
+    &::after{
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 100%;
+        height: 2px;
+        background-color: $card-border-color;
+        
+    }
+}
+.header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+}
+.header__socials {
+    display: flex;
+    gap: 25px;
+}
+.socials__scores {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 118%;
+    color: $orange-color;
+}
+.scores__ico img {
+    @include iconSize;
+}
+.scores__number {
+}
+.socials__account img {
+    width: 36px;
+    height: 36px;
+}

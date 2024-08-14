@@ -1,0 +1,43 @@
+
+
+
+.App {
+    width: 700px;
+}
+.post {
+    display: flex;
+    padding: 15px;
+    border: 2px solid teal;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+.word__item::after {
+
+}
+
+/* .word__item > * {
+    position: relative;
+    z-index: 1;
+} */
+
+tr {
+}
+
+
+
+
+
+
+
+
+
+
+
+

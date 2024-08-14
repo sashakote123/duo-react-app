@@ -1,0 +1,136 @@
+.game__board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 390px;
+    overflow: hidden;
+}
+
+.board__word {
+    display: flex;
+    align-items: center;
+    height: 400px;
+}
+.word__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 355px;
+    height: 120px;
+    border-radius: 12px;
+    border: 2px solid #e5e5e5;
+    border-radius: 12px;
+    box-shadow: 0 2px 0 0 #e5e5e5;
+
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 67%;
+    color: #4b4b4b;
+}
+.board__buttons {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+
+    margin-bottom: 35px;
+}
+.show-btn {
+    cursor: pointer;
+    grid-column: 1 / -1;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #fff;
+
+    border-radius: 16px;
+
+    height: 46px;
+    background: $font-nav-color;
+    box-shadow: 0 3px 0 0 $font-color-dark;
+
+    &:active {
+        position: relative;
+        top: 3px;
+        box-shadow: 0 0px 0 0 $font-color-dark;
+    }
+}
+
+.actived {
+    cursor: default;
+    box-shadow: 0 0px 0 0 $font-color-dark;
+    background: $card-border-color;
+
+    &:active {
+        position: relative;
+        top: 0px;
+    }
+}
+
+.green-btn {
+    cursor: pointer;
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #fff;
+
+    border-radius: 16px;
+    width: 190px;
+    height: 46px;
+    background: $main-green-color;
+    box-shadow: 0 3px 0 0 $sub-green-color;
+
+    &:active {
+        position: relative;
+        top: 3px;
+        box-shadow: 0 0px 0 0 $font-color-dark;
+    }
+}
+.red-btn {
+    cursor: pointer;
+    grid-column: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #fff;
+
+    border-radius: 16px;
+    width: 190px;
+    height: 46px;
+    background: $false-color;
+    box-shadow: 0 3px 0 0 #9f0000;
+
+    &:active {
+        position: relative;
+        top: 3px;
+        box-shadow: 0 0px 0 0 $font-color-dark;
+    }
+}
+
+.nomargin {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}

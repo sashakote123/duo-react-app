@@ -1,0 +1,63 @@
+.paregame__header {
+    padding: 20px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+.header__heading {
+    display: flex;
+    justify-content: space-between;
+}
+.heading__cancel {
+    cursor: pointer;
+
+    img {
+        @include iconSize;
+    }
+}
+
+.heading__timer {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+    img {
+        @include iconSize;
+    }
+}
+
+.timer__text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 142%;
+    color: $font-color-dark;
+}
+
+.header__title {
+    margin-top: 15px;
+
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 142%;
+    color: $font-color-dark;
+}
+
+.header__streak {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 142%;
+
+    color: #000000;
+
+    img {
+        @include iconSize;
+    }
+}
+
+.header__streak span {
+    text-transform: uppercase;
+}
