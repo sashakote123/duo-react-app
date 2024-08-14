@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/duo-react-app/static/css/main.434d4480.css",
+    "main.js": "/duo-react-app/static/js/main.d6e11930.js",
+    "static/media/failed.gif": "/duo-react-app/static/media/failed.993be60aae70aada6a91.gif",
+    "static/media/complete.gif": "/duo-react-app/static/media/complete.ca76be5c1c300c17b995.gif",
+    "static/media/avatarImage.svg": "/duo-react-app/static/media/avatarImage.c83b3ef4498e963a4254b139f68e394c.svg",
+    "static/media/PaleteIco.svg": "/duo-react-app/static/media/PaleteIco.3fb6bc371e5085f6825c1fae296e359b.svg",
+    "static/media/Logo.svg": "/duo-react-app/static/media/Logo.b3fad184419be7bc0e9fda8b7032b3cb.svg",
+    "static/media/BookIco.svg": "/duo-react-app/static/media/BookIco.04bb4265e5c176c006e92f39a2ea3a40.svg",
+    "static/media/themeBookIco.svg": "/duo-react-app/static/media/themeBookIco.ab2442c2186d8de36aecdcb62099a7c8.svg",
+    "static/media/TrainIco.svg": "/duo-react-app/static/media/TrainIco.bfa75d45a073d963101e91c2ae25577c.svg",
+    "static/media/searchIco.svg": "/duo-react-app/static/media/searchIco.e97429a290c8f7b040e8b92674b462e1.svg",
+    "static/media/sound.svg": "/duo-react-app/static/media/sound.258a2d3b8980e3985a7a52f3cb5837b4.svg",
+    "static/media/accuracy.svg": "/duo-react-app/static/media/accuracy.41968b57ff10d2f3e0add0353a55d7ee.svg",
+    "static/media/streak.svg": "/duo-react-app/static/media/streak.678fe079e05031aaec57e991553c0901.svg",
+    "static/media/OtherIco.svg": "/duo-react-app/static/media/OtherIco.80c92f1fcad91133cf7f8b7dd4f04210.svg",
+    "static/media/close.svg": "/duo-react-app/static/media/close.b66148c9b454ed0a66eed806aa117419.svg",
+    "static/media/score.svg": "/duo-react-app/static/media/score.9086c706f633c5d586b45cde1f834da3.svg",
+    "index.html": "/duo-react-app/index.html",
+    "static/media/clock.svg": "/duo-react-app/static/media/clock.2b935dd1c72edb7915de27d59968a04d.svg",
+    "main.434d4480.css.map": "/duo-react-app/static/css/main.434d4480.css.map",
+    "main.d6e11930.js.map": "/duo-react-app/static/js/main.d6e11930.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.434d4480.css",
+    "static/js/main.d6e11930.js"
+  ]
+}

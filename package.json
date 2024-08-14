@@ -1,6 +1,7 @@
 {
   "name": "duo-react-app",
   "version": "0.1.0",
+  "homepage": "https://sashakote123.github.io/duo-react-app",
   "private": true,
   "dependencies": {
     "@aws-sdk/client-sts": "^3.624.0",
