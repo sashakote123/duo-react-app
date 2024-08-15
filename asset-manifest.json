@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/duo-react-app/static/css/main.434d4480.css",
-    "main.js": "/duo-react-app/static/js/main.d6e11930.js",
+    "main.css": "/duo-react-app/static/css/main.aa4aeca9.css",
+    "main.js": "/duo-react-app/static/js/main.cec1dea0.js",
     "static/media/failed.gif": "/duo-react-app/static/media/failed.993be60aae70aada6a91.gif",
     "static/media/complete.gif": "/duo-react-app/static/media/complete.ca76be5c1c300c17b995.gif",
     "static/media/avatarImage.svg": "/duo-react-app/static/media/avatarImage.c83b3ef4498e963a4254b139f68e394c.svg",
@@ -19,11 +19,11 @@
     "static/media/score.svg": "/duo-react-app/static/media/score.9086c706f633c5d586b45cde1f834da3.svg",
     "index.html": "/duo-react-app/index.html",
     "static/media/clock.svg": "/duo-react-app/static/media/clock.2b935dd1c72edb7915de27d59968a04d.svg",
-    "main.434d4480.css.map": "/duo-react-app/static/css/main.434d4480.css.map",
-    "main.d6e11930.js.map": "/duo-react-app/static/js/main.d6e11930.js.map"
+    "main.aa4aeca9.css.map": "/duo-react-app/static/css/main.aa4aeca9.css.map",
+    "main.cec1dea0.js.map": "/duo-react-app/static/js/main.cec1dea0.js.map"
   },
   "entrypoints": [
-    "static/css/main.434d4480.css",
-    "static/js/main.d6e11930.js"
+    "static/css/main.aa4aeca9.css",
+    "static/js/main.cec1dea0.js"
   ]
 }
