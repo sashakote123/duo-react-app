@@ -47,9 +47,11 @@ const CardGameBoard = () => {
 
     let animFalse = KUTE.fromTo(board, { translateX: 0 }, { translateX: 1500 }, { duration: 200 });
     let anim2 = KUTE.fromTo(board, { translateX: -1500 }, { translateX: 0 }, { duration: 200 });
+    let anim3 = KUTE.to(board, { translateX: 0 }, { duration: 10 });
 
     animRight.chain(anim1)
     animFalse.chain(anim2)
+    anim2.chain(anim3)
 
     tween1.chain(tween2);
     const showWord = (e) => {

@@ -2,11 +2,17 @@ import img1 from './../../images/icons/Logo.svg'
 import img2 from './../../images/icons/score.svg'
 import img3 from './../../images/avatarImage.svg'
 import { useSelector } from 'react-redux';
+import AuthorizationForm from '../common/AutorisationForm';
+import { useRef } from 'react';
 
 
 const MainHeader = () => {
 
-
+    const ref1 = useRef()
+    const toggleAuth = () => {
+        console.log(ref1.current);
+        ref1.current.classList.toggle('none')
+    }
 
     const scores = useSelector(state => state.scores.points);
     console.log(scores);
@@ -23,10 +29,13 @@ const MainHeader = () => {
                             <img src={img2} alt="" className="scores__ico" />
                             <div className="scores__number">{scores}</div>
                         </div>
-                        <div className="socials__account">
+                        <div onClick={toggleAuth} className="socials__account">
                             <img src={img3} alt="" />
                         </div>
                     </div>
+                </div>
+                <div ref={ref1} className="auth-container none">
+                    <AuthorizationForm />
                 </div>
 
             </div>

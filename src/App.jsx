@@ -27,22 +27,14 @@ function App() {
 
   return (
 
-    //<WordFromPicture />
-    //<GifSearch query={'космический корабль'} />
-
     <>
       <MainHeader />
       <MainMenuContent />
-      {/* <Routes>
-        <Route path="/" element={<MainMenuContent />} />
-        <Route path="/:id" element={<FindPareGame />} />
-      </Routes>*/}
+
       {theme && (
         <Vocabulary theme={theme.theme} description={theme.description} array={theme.array} />
       )}
 
-
-      {/* <FindPareGame /> */}
     </>
 
   )

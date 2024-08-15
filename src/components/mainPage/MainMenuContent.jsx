@@ -7,6 +7,7 @@ import { cardsThemesList } from "../../lists/cardsThemesList";
 import CardGame from "../games/cards/CardGame";
 import { wordFromPictureList } from "../../lists/wordFromPictureList";
 import WordFromPicture from "../games/wordFromPicture/WordFromPicture";
+import ProfilePage from "../common/ProfilePaje";
 
 
 const MainMenuContent = () => {
@@ -31,7 +32,7 @@ const MainMenuContent = () => {
                     <Route path="/cards/:id" element={<CardGame />} />
                     <Route path="/fromimage" element={<MainPageMenu themesList={wordFromPictureList} title={'По картинке'} />} />
                     <Route path="/fromimage/:id" element={<WordFromPicture />} />
-                    <Route path="/profile" element={<MainPageMenu themesList={[]} title={'Профиль'} />} />
+                    <Route path="/profile" element={<ProfilePage title={'Профиль'} />} />
                     <Route path="/settings" element={<MainPageMenu themesList={[]} title={'Настройки'} />} />
                 </Routes>
             </section>

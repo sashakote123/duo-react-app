@@ -9,12 +9,17 @@ body {
     padding: 0 15px;
     max-width: 900px;
     margin: 0 auto;
+
 }
 
 .game-container {
     padding: 0 15px;
     max-width: 530px;
     margin: 0 auto;
+
+    @media screen and (max-width: 680px) {
+        padding: 0;
+    }
 }
 
 .none {
@@ -56,8 +61,6 @@ body {
     height: 100%;
     background-color: $main-green-color;
     z-index: 1000;
-
-
 }
 
 .falseWrapper {
@@ -70,6 +73,4 @@ body {
     color: $false-color;
     z-index: 1000;
     opacity: 0.1;
-
-
 }

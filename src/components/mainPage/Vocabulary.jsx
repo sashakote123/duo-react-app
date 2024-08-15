@@ -55,34 +55,38 @@ const Vocabulary = ({ theme, description, array }) => {
                 <div className="card__title">{theme}</div>
                 <div className="card__desc">{description}</div>
                 <table className="card__words">
-                    <tr>
-                        <th>Слово</th>
-                        <th>Перевод</th>
-                    </tr>
-                    {array.map(item => {
-                        return (
-                            <tr key={item.id}>
-                                <td>
-                                    <div className='table-row'>
-                                        <div onClick={speakWord} className='sound-ico'>
-                                            <img src={img2} alt="" />
+                    <thead>
+                        <tr>
+                            <th>Слово</th>
+                            <th>Перевод</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {array.map(item => {
+                            return (
+                                <tr key={item.id}>
+                                    <td>
+                                        <div className='table-row'>
+                                            <div onClick={speakWord} className='sound-ico'>
+                                                <img src={img2} alt="" />
+                                            </div>
+                                            <div>{item.word}</div>
                                         </div>
-                                        <div>{item.word}</div>
-                                    </div>
-                                </td>
+                                    </td>
 
-                                <td>
-                                    <div className='table-row'>
-                                        <div onClick={speakTranslate} className='sound-ico'>
-                                            <img src={img2} alt="" />
+                                    <td>
+                                        <div className='table-row'>
+                                            <div onClick={speakTranslate} className='sound-ico'>
+                                                <img src={img2} alt="" />
+                                            </div>
+                                            <div>{item.translate}</div>
                                         </div>
-                                        <div>{item.translate}</div>
-                                    </div>
-                                </td>
-                            </tr>
-                        )
+                                    </td>
+                                </tr>
+                            )
 
-                    })}
+                        })}
+                    </tbody>
                 </table>
             </div>
 

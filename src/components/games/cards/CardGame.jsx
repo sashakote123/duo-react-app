@@ -18,7 +18,7 @@ const CardGame = () => {
 
     }, [dispatch, obj])
     return (
-        <div className="container">
+        <div className="game-container">
             <CardsGameHeader />
             <CardGameBoard />
         </div>

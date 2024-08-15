@@ -1,0 +1,80 @@
+.profile {
+    padding: 14px 15px 0 15px;
+    width: 100%;
+}
+.menu__title {
+}
+.profile__header {
+    display: flex;
+    gap: 48px;
+    height: 212px;
+    
+
+    border-bottom: 1px $card-border-color solid;
+}
+.header__icon {
+    img {
+        width: 180px;
+    }
+}
+.header__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.heading__name {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 136%;
+    color: #3c3c3c;
+}
+.heading__surname {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 133%;
+    color: #afafaf;
+}
+.profile__statistics {
+    margin-top: 24px;
+}
+
+.statistics__header {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 124%;
+    color: #3c3c3c;
+}
+
+.statistics__card {
+    display: flex;
+    gap: 16px;
+    margin-top: 20px;
+    border: 2px solid #e5e5e5;
+    border-radius: 16px;
+    padding: 17px 26px;
+    width: 290px;
+    height: 78px;
+}
+.card__ico {
+    img {
+        width: 30px;
+    }
+}
+.card__desc {
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+    align-items: baseline;
+}
+.desc__number {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 111%;
+    color: #3c3c3c;
+}
+.desc__text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    color: #afafaf;
+}
